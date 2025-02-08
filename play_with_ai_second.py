@@ -39,9 +39,9 @@ while running:
 
     game = nim.Nim(piles=piles)
 
-    ai_flag = False
+    ai_flag = True
     if ai_flag:
-        ai_player = 0
+        ai_player = 1
     else:
         ai_player = -1
 
